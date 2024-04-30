@@ -1,0 +1,64 @@
+@font-face 
+{
+  font-family: Britanny;
+  src: url(../../Assets/BrittanySignature.ttf);
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 100px; /* Reducir el espacio interno del contenedor */
+    position: relative;
+   
+  }
+  
+  .custom-card {
+    width: calc(100%); /* Ajustar el ancho de las tarjetas y reducir el margen */
+    margin-bottom: 50px; /* Reducir el margen inferior entre las tarjetas */
+    background-color: #000 !important;
+    color: white !important;
+    transition: transform 0.3s ease;
+    border: none;
+    border-radius: none;
+  }
+  
+  .custom-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .custom-card .card-img-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+  }
+  
+  .custom-card .card-title {
+    font-family: Britanny;
+    font-size: 55px;
+    margin-bottom: 10px; /* Reducir el margen inferior del título */
+  }
+  
+  .custom-card .card-text {
+    font-family:cursive;
+    font-size: 15px;
+    margin: 0 10px;
+    text-align: center;
+    text-decoration: black;
+  }
+  
+
+  @media (max-width: 768px) {
+    .custom-card {
+      width: 100%;
+    }
+  }
+  

@@ -1,0 +1,51 @@
+
+@font-face 
+{
+  font-family: altaRegularFont;
+  src: url(./Assets/Alta_regular.otf);
+}
+
+*{
+  font-family: altaRegularFont;
+}
+/*BODY*/
+body{
+  overflow-x: hidden;
+  margin: 0; /* Elimina el margen */
+ 
+}
+
+.grid-layout {
+  display: grid;
+  background-color: #fff5ee;
+  width: 100%; /* Cambia de max-width a width para que el grid se ajuste al cuerpo sin el margen */
+  min-height: 100vh;
+  
+  grid-template-areas: 'nav nav'
+                        'header header'
+                        'main main'
+                        'footer footer';
+  grid-template-columns: 20% auto;
+  grid-template-rows: 35% 0% 70% 10%;
+}
+
+
+.header{
+  grid-area: header;
+  background-color: #fff5ee;
+}
+.nav{
+  grid-area: nav;
+  background-color: #fff5ee;
+  
+}
+.main{
+  grid-area: main;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), #fff5ee);
+}
+
+.footer{
+  grid-area: footer;
+  background-color: #fcd1c6;
+}
+

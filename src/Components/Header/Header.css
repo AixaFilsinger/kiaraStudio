@@ -1,0 +1,9 @@
+/* Establece un tamaño máximo para las imágenes dentro del Carousel */
+.carousel img {
+    max-width: 100%;
+    max-height: 400px; 
+    width: 300px;
+    height: auto;
+  }
+
+  

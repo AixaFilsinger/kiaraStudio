@@ -1,11 +1,10 @@
-import './App.css'
 import Nav from './Components/Navbar/Navbar'
 import Carrousel from './Components/Header/Header'
 import MainCards from './Components/MainCards/MainCards'
 import MainDetails from './Components/MainDetails/MainDetalles'
 import Footer from './Components/Footer/Footer'
 
-function App() {
+const Inicio = () => {
 
   return (
     <>
@@ -28,4 +27,4 @@ function App() {
   )
 }
 
-export default App
+export default Inicio;

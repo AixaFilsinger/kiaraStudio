@@ -1,0 +1,31 @@
+.titlespan{
+    color: white;
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+}
+
+  
+
+.text-mute{
+    color: gray;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    position: relative;
+    top: 40px;
+}
+
+.logo-container {
+    text-align: center; /* Centra horizontalmente el contenido */
+  }
+  
+  .logotipo {
+    max-width: 150px; /* Define el tamaño máximo de la imagen */
+    display: inline-block; /* Para centrar la imagen horizontalmente */
+  }
+  
+  
